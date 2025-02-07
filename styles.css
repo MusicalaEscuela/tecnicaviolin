@@ -1,0 +1,109 @@
+/* Estilos Generales */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F9FF;
+    color: #333;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #1A237E;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Secciones */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Elementos de Texto */
+h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #3949AB;
+    margin: 20px 0;
+}
+
+/* Elementos */
+.elemento {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+    background-color: #E3F2FD;
+    border-left: 8px solid #1A237E;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Número */
+.numero {
+    background-color: #3949AB;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Botón de WhatsApp */
+.btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #1EBE57;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #1A237E;
+    color: white;
+    padding: 15px;
+}
+
+/* Barra de Progreso */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background: #3949AB;
+    width: 0%;
+    z-index: 1000;
+}
